@@ -1,0 +1,35 @@
+.accomplishments__container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 475px) {
+  .accomplishments__container {
+    grid-template-columns: 1fr;
+  }
+
+  .accomplishments__content {
+    padding-right: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .accomplishments__container {
+    grid-template-columns: repeat(3, 218px);
+    justify-content: center;
+  }
+
+  .accomplishments__icon {
+    font-size: 2rem;
+  }
+
+  .accomplishments__content {
+    padding: 6rem 0 2rem 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .accomplishments__container {
+    grid-template-columns: repeat(3, 238px);
+  }
+}

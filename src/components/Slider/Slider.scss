@@ -1,0 +1,40 @@
+.slider {
+  white-space: nowrap;
+  overflow-x: scroll;
+  cursor: pointer;
+}
+
+.slider__arrow {
+  position: absolute;
+  top: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: var(--scroll-bar-color);
+
+  &:hover {
+    color: var(--text-color-light);
+  }
+}
+
+.slider__arrow--left {
+  left: -1.5rem;
+}
+
+.slider__arrow--right {
+  right: -1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__arrow {
+    position: absolute;
+    font-size: 7rem;
+  }
+
+  .slider__arrow--left {
+    left: -7rem;
+  }
+
+  .slider__arrow--right {
+    right: -7rem;
+  }
+}

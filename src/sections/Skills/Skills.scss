@@ -1,0 +1,23 @@
+.skills__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+  transition: 0.3s;
+  row-gap: 0.8rem;
+}
+
+.skills__item {
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 16px;
+  padding: 0.2rem 0.8rem;
+  margin: 0 0.4rem;
+}
+
+.skills__icon {
+  font-size: 1rem;
+  margin-right: 0.2rem;
+}
