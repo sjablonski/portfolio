@@ -162,7 +162,7 @@ function App() {
               ))}
             </div>
           </div>
-          <p className="footer__copy">{lang.footer.copy}</p>
+          <p className="footer__copy">{lang.footer.copy}, Layout: Bedimcode</p>
         </div>
       </footer>
 
