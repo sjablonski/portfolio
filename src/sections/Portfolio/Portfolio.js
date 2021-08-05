@@ -19,6 +19,7 @@ function Portfolio() {
       title: 'Polish Election Statistics',
       description: `Aplikacja w Angular stworzona w trakcie studiów na zaliczenie. Przedstawia statystyki z wyborów prezydenckich w formach takie jak: rozkład miar, graficzna reprezentacja (mapy z podziałem na województwa, wykresy, twarze Chernoffa).`,
       imgSrc: polishElectionStatisticsImg,
+      demoHref: 'https://polish-election-statistics.netlify.app/',
       githubHref: 'https://github.com/sjablonski/polish-election-statistics',
     },
     {
