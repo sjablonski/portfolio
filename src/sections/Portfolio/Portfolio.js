@@ -1,6 +1,7 @@
 import Section from 'templates/Section';
 import useLanguage from 'hooks/useLanguage';
 import polishElectionStatisticsImg from 'assets/img/portfolio/polish-election-statistics.png';
+import vaccinationRegistration from 'assets/img/portfolio/vaccination-registration.png';
 import onBankImg from 'assets/img/portfolio/onbank.png';
 import tspImg from 'assets/img/portfolio/tsp.png';
 import favNoteReactImg from 'assets/img/portfolio/favnote-react.png';
@@ -21,6 +22,13 @@ function Portfolio() {
       imgSrc: polishElectionStatisticsImg,
       demoHref: 'https://polish-election-statistics.netlify.app/',
       githubHref: 'https://github.com/sjablonski/polish-election-statistics',
+    },
+    {
+      title: 'Vaccination registration',
+      description: `Aplikacja do zapisu na szczepienie. Projekt realizowany w ramach pracy magisterskiej. Składa się z trzech części: aplikacji klienckiej napisanej w technologii React, REST API stworzonego przy użyciu Javy/Spring Boot oraz aplikacji dokonującej rejestracji na szczepienie, która również została stworzona w technologii Java/Spring Boot. Dodatkowo do komunikacji pomiędzy REST API a aplikacją rejestrującą został zastosowany broker komunikatów Apache Kafka.`,
+      imgSrc: vaccinationRegistration,
+      demoHref: 'https://vaccination-registration.netlify.app/',
+      githubHref: 'https://github.com/sjablonski/vaccination-registration',
     },
     {
       title: 'Telecommunication Service Provider',
