@@ -2,6 +2,7 @@ import Section from 'templates/Section';
 import useLanguage from 'hooks/useLanguage';
 import polishElectionStatisticsImg from 'assets/img/portfolio/polish-election-statistics.png';
 import vaccinationRegistration from 'assets/img/portfolio/vaccination-registration.png';
+import helper from 'assets/img/portfolio/helper.png';
 import onBankImg from 'assets/img/portfolio/onbank.png';
 import tspImg from 'assets/img/portfolio/tsp.png';
 import favNoteReactImg from 'assets/img/portfolio/favnote-react.png';
@@ -29,6 +30,12 @@ function Portfolio() {
       imgSrc: vaccinationRegistration,
       demoHref: 'https://vaccination-registration.netlify.app/',
       githubHref: 'https://github.com/sjablonski/vaccination-registration',
+    },
+    {
+      title: 'Helper',
+      description: `Aplikacja mobilna do zgłaszania interwencji do służb ratowniczych. Projekt realizowany w ramach pracy inżynierskiej. Aplikacji została stworzona w technologii React Native wraz ze środowiskiem Expo oraz platformą Firebase. Projekt umożliwia rejestrację, logowanie, dodawanie zgłoszeń, a także za pomocą prostego algorytmu pozwala wykryć upadek oraz wysłać zgłoszenie do odpowiednich służb.`,
+      imgSrc: helper,
+      githubHref: 'https://github.com/sjablonski/helper',
     },
     {
       title: 'Telecommunication Service Provider',
